@@ -2,7 +2,7 @@
 
 session_start();
 
-if (!isset($_SESSION['ssLoginRM'])) {
+if (isset($_SESSION['ssLoginRM'])) {
   header("location: ../index.php");
   exit();
 }

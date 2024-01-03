@@ -84,8 +84,10 @@
   </symbol>
 </svg>
 
-<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">Rekam Medis</a>
+<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" 
+data-bs-theme="dark">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" 
+  href="#">Rekam Medis</a>
 
   <ul class="navbar-nav flex-row d-md-none">
     <li class="nav-item text-nowrap">
@@ -98,7 +100,7 @@
   <!-- fileReader.addEventListener('load', (e) => {
           tampil.src = e.target.result;
       }) -->
-
+  
   <span class="text-white-50 ms-3 w-100 fs-6 py-1"><?= $_SESSION['ssUserRM'] ?></span>
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">

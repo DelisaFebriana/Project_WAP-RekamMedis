@@ -16,12 +16,13 @@ if (isset($_POST['login'])) {
             // set session
             $_SESSION['ssLoginRM'] = true;
             $_SESSION['ssUserRM'] = $username;
-
             header("location: ../index.php");
+            
             exit();
         } else {
             echo "<script> 
-                  alert('login gagal..');
+                  alert('login gagal..'
+                );
                   document.location.href= 'index.php';  
             </script>";
         }

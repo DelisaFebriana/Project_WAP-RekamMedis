@@ -15,6 +15,14 @@ require "../template/header.php";
 require "../template/navbar.php";
 require "../template/sidebar.php";
 
+if ($dataUser['jabatan'] != 1) {
+    echo "<script>
+        alert('Halaman tidak ditemukan..');
+        window.location = '../index.php';
+    </script>";
+    exit();
+  }
+
 ?>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 min-vh-100">
